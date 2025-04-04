@@ -56,37 +56,37 @@ The comparative analysis of different models highlights their effectiveness in c
 ### Task 1: Machine Learning Models
 | No. | Model Name            | Feature      | Accuracy |
 |-----|-----------------------|--------------|-----------|
-| 0   | Random Forest         | NLP Features | 0.5547    |  
-| 1   | SVM                   | NLP Features | 0.6211    | 
-| 2   | Logistic Regression   | NLP Features | 0.6211    |  
-| 3   | Random Forest         | BoW          | 0.9297    |   
-| 4   | SVM                   | BoW          | 0.9727    |   
-| 5   | Logistic Regression   | BoW          | 0.9570    |
-| 6   | Random Forest         | TFIDF        | 0.9180    | 
-| 7   | SVM                   | TFIDF        | 0.9727    |
-| 8   | Logistic Regression   | TFIDF        | 0.9609    |
-| 9   | Random Forest         | FastText     | 0.8672    |
-| 10  | SVM                   | FastText     | 0.8672    |
-| 11  | Logistic Regression   | FastText     | 0.8555    |
-| 12  | Random Forest         | Combined     | 0.9258    |
-| 13  | SVM                   | Combined     | 0.9766    |
-| 14  | Logistic Regression   | Combined     | 0.9102    |
+| 0   | Random Forest         | NLP Features | 0.5333    |  
+| 1   | SVM                   | NLP Features | 0.5519    | 
+| 2   | Logistic Regression   | NLP Features | 0.5407    |  
+| 3   | Random Forest         | BoW          | 1.00      |   
+| 4   | SVM                   | BoW          | 1.00      |   
+| 5   | Logistic Regression   | BoW          | 1.00      |
+| 6   | Random Forest         | TFIDF        | 1.00      | 
+| 7   | SVM                   | TFIDF        | 1.00      |
+| 8   | Logistic Regression   | TFIDF        | 1.00      |
+| 9   | Random Forest         | FastText     | 0.9648    |
+| 10  | SVM                   | FastText     | 0.8833    |
+| 11  | Logistic Regression   | FastText     | 0.9111    |
+| 12  | Random Forest         | Combined     | 0.9944    |
+| 13  | SVM                   | Combined     | 1.00      |
+| 14  | Logistic Regression   | Combined     | 0.9926    |
 
 ### Task 2: Deep Learning Models
 | No. | Model Name   | Feature  | Precision | Recall | F1 Score | Accuracy |
 |-----|-------------|-----------|-----------|--------|----------|----------|
-| 1   | CNN         | BoW       | 0.93      | 0.93   | 0.93     | 0.9298   |
-| 2   | LSTM        | BoW       | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 3   | BiLSTM      | BoW       | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 4   | CNN-BiLSTM  | BoW       | 0.27      | 0.33   | 0.17     | 0.3216   |
-| 5   | CNN         | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 6   | LSTM        | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 7   | BiLSTM      | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3275   |
-| 8   | CNN-BiLSTM  | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 9   | CNN         | FastText  | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 10  | LSTM        | FastText  | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 11  | BiLSTM      | FastText  | 0.11      | 0.33   | 0.16     | 0.3216   |
-| 12  | CNN-BiLSTM  | FastText  | 0.11      | 0.33   | 0.16     | 0.3216   |
+| 1   | CNN         | BoW       | 0.99      | 0.99   | 0.99     | 0.9944   |
+| 2   | LSTM        | BoW       | 0.27      | 0.33   | 0.17     | 0.3222   |
+| 3   | BiLSTM      | BoW       | 0.56      | 0.51   | 0.50     | 0.5139   |
+| 4   | CNN-BiLSTM  | BoW       | 0.56      | 0.51   | 0.50     | 0.5139   |
+| 5   | CNN         | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3222   |
+| 6   | LSTM        | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3222   |
+| 7   | BiLSTM      | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3278   |
+| 8   | CNN-BiLSTM  | TF-IDF    | 0.11      | 0.33   | 0.16     | 0.3278   |
+| 9   | CNN         | FastText  | 0.69      | 0.68   | 0.67     | 0.6778   |
+| 10  | LSTM        | FastText  | 0.11      | 0.33   | 0.16     | 0.3222   |
+| 11  | BiLSTM      | FastText  | 0.32      | 0.41   | 0.31     | 0.4083   |
+| 12  | CNN-BiLSTM  | FastText  | 0.61      | 0.53   | 0.49     | 0.5222   |
 
 ### Task 3: Transformer Models
 | No. | Model Name | Precision | Recall | F1 Score | Accuracy | MCC   |
